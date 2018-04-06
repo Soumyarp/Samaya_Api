@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4384" started-at="2018-04-06T06:22:24Z" finished-at="2018-04-06T06:22:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4384" started-at="2018-04-06T06:22:24Z" finished-at="2018-04-06T06:22:28Z">
+      <class name="ApiTests.UploadAttendance_ZK">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ApiTests.UploadAttendance_ZK@4c70fda8]" name="beforeTest" is-config="true" duration-ms="724" started-at="2018-04-06T11:52:24Z" finished-at="2018-04-06T11:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="uploadAttendance(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ApiTests.UploadAttendance_ZK@4c70fda8]" name="uploadAttendance" duration-ms="2013" started-at="2018-04-06T11:52:26Z" data-provider="getData" finished-at="2018-04-06T11:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2018-03-02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3576164500070]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10:00:00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadAttendance -->
+        <test-method status="PASS" signature="uploadAttendance(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ApiTests.UploadAttendance_ZK@4c70fda8]" name="uploadAttendance" duration-ms="477" started-at="2018-04-06T11:52:28Z" data-provider="getData" finished-at="2018-04-06T11:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2018-03-02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3576164500070]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11:01:00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadAttendance -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:ApiTests.UploadAttendance_ZK@4c70fda8]" name="AfterTest" is-config="true" duration-ms="0" started-at="2018-04-06T11:52:28Z" finished-at="2018-04-06T11:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- ApiTests.UploadAttendance_ZK -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
